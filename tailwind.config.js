@@ -1,5 +1,8 @@
 module.exports = {
-	purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+	purge: {
+		preserveHtmlElements: false,
+		content: ['./index.html', './src/**/*.{jsx,tsx}'],
+	},
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
@@ -10,7 +13,7 @@ module.exports = {
 				},
 			},
 			animation: {
-				slideFromRight: 'slideFromRight 1s',
+				slideFromRight: 'slideFromRight .3s',
 			},
 		},
 	},

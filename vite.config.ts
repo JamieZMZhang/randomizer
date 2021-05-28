@@ -7,5 +7,5 @@ export default defineConfig({
 		port: 8283,
 	},
 	plugins: [reactRefresh()],
-	base: '/randomizer/',
+	base: './',
 });
