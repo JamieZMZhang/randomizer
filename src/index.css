@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind utilities;
+
+@layer base {
+	button {
+		@apply focus:outline-none;
+	}
+	a {
+		@apply outline-none;
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"extends": ["react-app", "react-app/jest"],
+	"rules": {
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1,
+				"ObjectExpression": 1,
+				"ArrayExpression": 1
+			}
+		],
+		"comma-dangle": ["off"],
+		"react-hooks/exhaustive-deps": ["off"],
+		"jsx-a11y/img-redundant-alt": ["off"],
+		"no-throw-literal": ["off"],
+		"quotes": ["error", "single", { "allowTemplateLiterals": true }]
+	}
+}
